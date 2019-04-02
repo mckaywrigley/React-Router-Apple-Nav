@@ -9,9 +9,6 @@ const ItemWrapper = styled.div`
 
 const SubNav = props => {
     const tab = props.navdata.find(tab => `${tab.path}` === props.history.location.pathname)
-    console.log(props.navdata)
-    console.log(props.history.location.pathname)
-    console.log(tab)
     
     return (
 
